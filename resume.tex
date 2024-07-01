@@ -1,0 +1,210 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ 
+    \item
+    \begin{tabular*}{\textwidth}{@{}l} 
+      \textbf{\small #1} | \textbf{\small #2} \\ 
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{ 
+  \item
+    \begin{tabular*}{\textwidth}{@{}l@{}l}
+      {\small\textbf{#1}} {\small #2} \\ 
+    \end{tabular*}\vspace{-6pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%
+\begin{document}
+
+%---------------HEADER---------------
+\begin{center}
+    {\Huge \scshape Hospice Hounfodji} \\ \vspace{6pt}
+    {\small \scshape Backend Developer - Mobile Developer} \\ \vspace{1pt}
+    \small 
+    \href{mailto:hospicehounfodji@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{hospicehounfodji@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/hospice-hounfodji-44a2a7235/}{\raisebox{-0.1\height}\faLinkedin\ \underline{LinkedIn}} ~ 
+    \href{https://github.com/hounfodji}{\raisebox{-0.1\height}\faGithub\ \underline{hounfodji}} ~
+    \href{https://hospice-dev.vercel.app/}{\raisebox{-0.2\height}\faGlobe\ \underline{hospice-dev.vercel.app}}
+    \vspace{-8pt}
+\end{center}
+
+%---------------EDUCATION---------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ecole Polytechnique d'Abomey-Calavi}{Diplome Mars 2025}
+      {Réseau Informatique et Internet}{Abomey-Calavi}
+    \resumeSubHeadingListEnd
+
+%---------------EXPERIENCE---------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {BLUE LIFE TECH}{Août 2023 -- Septembre 2023}
+      {Stagiaire Développeur Web Fullstack}{Sègbèya-Sud, Cotonou}
+      \resumeItemListStart
+        \resumeItem{Mise en place d'un blog d'histoire et d'une plateforme de e-commerce avec le framework Laravel. }
+        \resumeItem{Collaborer avec des équipes interfonctionnelles pour explorer des solutions innovantes, mener des expériences et itérer sur des idées pour
+        stimuler le développement de nouvelles technologies et applications.}
+        \resumeItem{Travailler en étroite collaboration avec des développeurs et des chercheurs seniors pour créer des prototypes, mener des études de faisabilité et valider
+        concepts, garantissant l’alignement avec les buts et objectifs du projet.}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {iitech Bénin}{Août 2022 -- Octobre 2023}
+      {Stagiaire Développeur Web Fullstack}{Abomey Calavi}
+      \resumeItemListStart
+        \resumeItem{Superviser la maintenance continue et les améliorations des sites Web de l'entreprise à l'aide de Laravel, en veillant à ce qu'ils restent
+        à jour et fonctionnels.}
+        \resumeItem{Sélection des modèles et dans l'élaboration de l'interface utilisateur , améliorant ainsi l'expérience utilisateur globale.}
+        \resumeItem{Utilisation de HTML, CSS et Bootstrap pour affiner la mise en page et les styles du site Web, optimisant ainsi les performances et l'apparence du site.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+%---------------Projects---------------
+\section{Projets \footnotesize Pour le code source et plus, consultez mon site Web}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {Smart Watering Plants} 
+      {Dart, Flutter, Firebase, Realtime Database, IOT} 
+    \resumeItemListStart
+        \resumeItem{Application mobile pour la gestion automatique de l'arrosage des plantes. L'application recueille les données provenant des capteurs afin que l'utilisateur puisse lancer ou  programmer l'arrosage.}
+        \resumeItem{Orchestré l'architecture, le design et la conception de l'application, garantissant une fonctionnalité et une fonctionnalité transparentes.
+        personnalisation.}
+        \resumeItem{Utilisation de Git pour le contrôle de version afin d'améliorer l'efficacité de la gestion de projet, facilitant un flux de travail rationalisé tout au long du cycle de vie de développement tout en travaillant de manière indépendante.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+      {Speech to text, text to Speech, Speech to Speech App} 
+      {Python, Speech Recognition, Deep Translator} 
+    \resumeItemListStart
+        \resumeItem{Application polyvalente qui combine diverses fonctionnalités liées au traitement de la parole. Cette application comprend probablement des fonctionnalités permettant de convertir des mots parlés en texte écrit (parole en texte), de transformer du texte en mots parlés (texte en parole) et peut-être même de convertir des mots parlés d'une langue à une autre (parole en parole).}
+        \resumeItem{Les utilisateurs de cette application peuvent bénéficier de ses capacités de transcription, d'enregistrements audio, de génération de sorties vocales synthétisées et potentiellement de facilitation de la communication multilingue grâce à la traduction vocale. L'intégration des technologies de traitement de la parole dans l'application offre un moyen pratique et efficace d'interagir avec et de manipuler les données du langage parlé.}
+    \resumeItemListEnd
+
+    \resumeProjectHeading
+      {AI Blog App} 
+      {Django, llama2, assemblyai, pytube} 
+    \resumeItemListStart
+        \resumeItem{Générez des articles de blog de haute qualité à partir de vidéos YouTube à l'aide de l'intelligence artificielle.  Entrez simplement le lien vers la vidéo YouTube et laissez l'IA créer le contenu pour vous !}
+        \resumeItem{Utilisation de l'IA Générative.}
+    \resumeItemListEnd
+
+    
+    
+  \resumeSubHeadingListEnd
+
+%---------------EDUCATION---------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ecole Polytechnique d'Abomey-Calavi}{Diplome Mars 2025}
+      {Réseau Informatique et Internet}{Abomey-Calavi}
+    \resumeSubHeadingListEnd
+
+%---------------Technial Skills---------------
+\section{Compétences techniques}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Langages:}
+      {Javascript, Python, Java, PHP, SQL, Dart.}
+      \resumeSubItem{Technologies et Frameworks:}
+      {HTML, CSS, Django, Laravel, Spring boot, Bootstrap, Flutter.}
+    \resumeSubItem{Databases:}
+      {MySQL, MongoDB, PostgreSQL.}
+    \resumeSubItem{Outils de développement:}
+      { Linux, Git/Github, Firebase Hosting, Visual Studio Code, IntelliJ IDEA.}
+  \resumeSubHeadingListEnd
+
+  %---------------Technial Skills---------------
+\section{Prix et distinctions}
+\resumeSubHeadingListStart
+  \resumeSubItem{HACKATHON IA CHALLENGE MULTIMODAL ET MULTILINGUE - BÉNIN:}
+    {2ème, TEAM AIDA.}
+    
+\resumeSubHeadingListEnd
+
+
+\end{document}
