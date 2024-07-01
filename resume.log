@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.11)  1 JUL 2024 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.4.11)  1 JUL 2024 18:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/hounfodji/2024/Me/Resume-main/CV/resume.tex
-(/home/hounfodji/2024/Me/Resume-main/CV/resume.tex
+**/home/hounfodji/2024/Me/CV/resume.tex
+(/home/hounfodji/2024/Me/CV/resume.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -381,37 +381,42 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 117.
 
-Underfull \hbox (badness 10000) in alignment at lines 152--152
+Underfull \hbox (badness 10000) in alignment at lines 149--149
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 162--162
+Underfull \hbox (badness 10000) in alignment at lines 159--159
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 170--170
+Underfull \hbox (badness 10000) in alignment at lines 167--167
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 192--192
+Underfull \hbox (badness 10000) in alignment at lines 181--181
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 183--183
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 185--185
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 187--187
 [][]
  []
 
 
 Underfull \hbox (badness 10000) in alignment at lines 194--194
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 196--196
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 198--198
 [][]
  []
 
@@ -422,36 +427,26 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in alignment at lines 205--205
-[][]
- []
-
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./resume.aux)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 557668E357E7C4F987EA9A62FA949690;945.
+(rerunfilecheck)             Checksum: 9C071B37189601555B3BCBF7037DC107;857.
  ) 
 Here is how much of TeX's memory you used:
- 13566 strings out of 478287
- 234715 string characters out of 5849289
- 551044 words of memory out of 5000000
- 31604 multiletter control sequences out of 15000+600000
- 476984 words of font info for 57 fonts, out of 8000000 for 9000
+ 13561 strings out of 478287
+ 234634 string characters out of 5849289
+ 549044 words of memory out of 5000000
+ 31602 multiletter control sequences out of 15000+600000
+ 476686 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,63p,539b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,527b,342s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (2 pages, 126866 bytes).
+Output written on resume.pdf (1 page, 125846 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

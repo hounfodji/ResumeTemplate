@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1719853979 "/home/hounfodji/2024/Me/Resume-main/CV/resume.tex" "resume.pdf" "resume" 1719853981
+["pdflatex"] 1719856153 "/home/hounfodji/2024/Me/CV/resume.tex" "resume.pdf" "resume" 1719856156
   "/etc/texmf/web2c/texmf.cnf" 1691698265 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/hounfodji/2024/Me/Resume-main/CV/resume.tex" 1719853975 8524 befd596f8f43f943ed957ea8b0265206 ""
+  "/home/hounfodji/2024/Me/CV/resume.tex" 1719856152 7761 929c88f26f25845653a7f6de6ff2b209 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -13,7 +13,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1136768653 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1136768653 1300 b62933e007d01cfd073f79b963c01526 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
@@ -103,9 +102,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1691698342 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1712834478 2799169 ab5eaa99075116a0fd89f82e2383a83b ""
-  "resume.aux" 1719853981 1493 f303f746674b3eb73862e2e1be149adb "pdflatex"
-  "resume.out" 1719853981 945 557668e357e7c4f987ea9a62fa949690 "pdflatex"
-  "resume.tex" 1719853975 8524 befd596f8f43f943ed957ea8b0265206 ""
+  "resume.aux" 1719856156 1387 c1cb318fe9885e1aee981d622936cae6 "pdflatex"
+  "resume.out" 1719856156 857 9c071b37189601555b3bcbf7037dc107 "pdflatex"
+  "resume.tex" 1719856152 7761 929c88f26f25845653a7f6de6ff2b209 ""
   (generated)
   "resume.aux"
   "resume.log"
