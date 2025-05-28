@@ -1,6 +1,24 @@
-resume.aux
-resume.fdb_latexmk
-resume.fls
-resume.log
-resume.out
-resume.synctex.gz
+# LaTeX auxiliary files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Build artifacts
+*.pdf
+*.dvi
+
+# Backup files
+*\ copy.*
+
+# Specific files
+resume_english.aux
+resume_english.fdb_latexmk
+resume_english.fls
+resume_english.log
+resume_english.out
+resume_english.synctex.gz
+# Keep resume_english.tex tracked unless you don't want it on GitHub
+# resume_english.tex

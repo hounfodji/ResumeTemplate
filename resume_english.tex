@@ -1,0 +1,215 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{ 
+    \item
+    \begin{tabular*}{\textwidth}{@{}l} 
+      \textbf{\small #1} | \textbf{\small #2} \\ 
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{ 
+  \item
+    \begin{tabular*}{\textwidth}{@{}l@{}l}
+      {\small\textbf{#1}} {\small #2} \\ 
+    \end{tabular*}\vspace{-6pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%%%%%%  RESUME STARTS HERE  %%%%%%
+\begin{document}
+
+%---------------HEADER---------------
+\begin{center}
+  {\Huge \scshape Hospice Hounfodji} \\ \vspace{6pt}
+  {\small \scshape AI Engineer} \\ \vspace{1pt}
+  \small
+  \href{mailto:hospicehounfodji@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  {hospicehounfodji@gmail.com}} ~
+  \href{https://www.linkedin.com/in/hospice-hounfodji-44a2a7235/}{\raisebox{-0.1\height}\faLinkedin\ {hospicehounfodji}} ~
+  \href{https://github.com/hounfodji}{\raisebox{-0.1\height}\faGithub\ {hounfodji}} ~
+  \raisebox{-0.1\height}\faPhone\ +229 0166723308 ~
+  \raisebox{-0.1\height}\faMapMarker\ Cotonou, Bénin ~
+  % \href{https://hospice-dev.vercel.app/}{\raisebox{-0.2\height}\faGlobe\ \underline{hospicehounfodji.com}}
+  \vspace{-8pt}
+\end{center}
+
+\vspace{1mm}
+%---------------About---------------
+\section{Profile}
+\textbf{Artificial Intelligence Engineer} 
+{with a year experience in developing machine learning models. Proficient in Python, Pytorch, Dart, and data processing. Experience in designing applications based on foundation models, as well as data analysis and visualization. Passionate about innovation and building intelligent machines to solve complex problems.}
+
+%---------------EDUCATION---------------
+\section{Education}
+\resumeSubHeadingListStart
+
+\item
+  \textbf{Master's in Computer Science - Artificial Intelligence} \\
+  Epitech Bénin, Cotonou, Benin \\
+  \textit{2024 -- 2026}
+
+\item
+  \textbf{Bachelor of Science in Engineering - Computer Network and Internet} \\
+  Ecole Polytechnique d'Abomey-Calavi, Abomey-Calavi, Benin \\
+  \textit{2019 -- 2025}
+
+\resumeSubHeadingListEnd
+
+\vspace{1mm}
+
+%---------------EXPERIENCE---------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{AI Engineer }{October 2024 -- Present}
+{Alpilink (remote)}{Échirolles, France}
+\resumeItemListStart
+\resumeItem{\textbf{Analysed large datasets} of Ski resort attendance data to predict attendance trends and measure the impact of dynamic pricing on ski resort attendance.}
+\resumeItem{\textbf{Developed an AI-powered chatbot assistant} for ski pass back-office sales operations using \textbf{Retrieval-Augmented Generation} (RAG) techniques.}
+\resumeItem{\textbf{Developed a complete document translation application} to translate internal documents from French to English using open-source models (Qwen3), ensuring company confidentiality and information security.}
+\resumeItemListEnd
+
+% \resumeSubheading
+% {Software Engineer}{Cotonou, Bénin}
+% {AIDA}{May 2024 -- Present}
+% \resumeItemListStart
+% \resumeItem{Developed the mobile application Alodometo, a Multifunctional Voice Assistant, winner of the 2nd prize at the \textbf{AI Hackathon} multimodal and multilingual challenge - Benin.}
+% \resumeItem{Transformed design mockups into a functional mobile application using the \textbf{Flutter} framework.}
+% \resumeItemListEnd
+
+\resumeSubheading
+{Backend Developer Intern}{August 2022 -- October 2023}
+{IITECH Bénin}{Cotonou, Bénin}
+\resumeItemListStart
+\resumeItem{Migrated the company's websites from Laravel 8 to Laravel 9, ensuring improved performance and security.}
+\resumeItem{Collaborated with senior developers in a team environment, participating in code reviews and knowledge-sharing sessions.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------------Projects---------------
+\section{Projects \footnotesize}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{{GrowGreen}} $|$ \emph{\href{https://github.com/hounfodji/watering_plants}{Source Code}}}{Flutter $|$ Firebase}
+\\[5mm]
+\resumeItemListStart
+\resumeItem{Mobile application for automatic plant watering management, developed with Flutter and Firebase.}
+\resumeItem{Allowed users can remotely initiate watering, schedule automatic sessions, and view data from sensors.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------------Technial Skills---------------
+\section{Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Programming Languages:}
+{ Python, Dart, C/C++, SQL.}
+\resumeSubItem{Tools:}
+{Numpy, Pandas, Pytorch, Scikit-learn, Docker, Jira.}
+\resumeSubItem{Techniques:}
+{Machine learning, data analysis, and preprocessing.}
+\\
+
+\resumeSubHeadingListEnd
+
+%---------------Languages---------------
+\section{Languages}
+\resumeSubHeadingListStart
+\resumeSubItem{French:}
+{Native}
+\resumeSubItem{English:}
+{Professional working proficiency}
+\resumeSubHeadingListEnd
+
+
+%---------------Awards---------------
+\section{Awards and Distinctions}
+\resumeSubHeadingListStart
+\resumeSubItem{AI Challenge Multimodal and Multilingual Hackathon - Benin:}
+{2nd place, TEAM AIDA.}
+\resumeSubHeadingListEnd
+
+
+
+\end{document}
